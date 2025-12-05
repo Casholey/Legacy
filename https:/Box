@@ -1,0 +1,26 @@
+var ContentPreview = require("./ContentPreview").default;
+
+<IntlProvider locale="en">
+  <ContentPreview
+    contentSidebarProps={{
+      detailsSidebarProps: {
+        hasAccessStats: true,
+        hasClassification: true,
+        hasNotices: true,
+        hasProperties: true,
+        hasRetentionPolicy: true,
+        hasVersions: true,
+      },
+      features: FEATURES,
+      hasActivityFeed: true,
+      hasMetadata: true,
+      hasSkills: true,
+      hasVersions: true,
+    }}
+    hasHeader={true}
+    features={FEATURES}
+    fileId={FILE_ID}
+    token={TOKEN}
+    {...PROPS}
+  />
+</IntlProvider>;
