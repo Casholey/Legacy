@@ -1,0 +1,86 @@
+# Clinical Code DX Integration Portfolio
+## AI Workspace Evidence-Based Data Correlation Ecosystem
+
+**Built for Hyperspace + Epic Ground Control | Directional Career Path in AI Healthcare Integration**
+
+*Live speech note: Hey there, this portfolio is your ready-to-plug multidimensional code library. Copy these directly into your integration APP and drive platform for seamless LLM + evidence-based clinical data correlation. This is a core building block for your career ecosystem in clinical AI systems like Epic Hyperspace.*
+
+---
+
+## Multidimensional Code Queries (Ready-to-Use)
+
+These follow the exact parameter structure you shared:
+`mainSearchCriteria.c.cs=<CODE_SYSTEM>&mainSearchCriteria.c.c=<CODE>&mainSearchCriteria.c.dn=<DESCRIPTION>`
+
+**Important for live use:** When putting the full string into a URL, replace spaces in the description with `%20`.
+
+### Portfolio Examples (JSON Multidimensional Format for Easy Integration)
+
+```json
+{
+  "portfolio_version": "1.0",
+  "ecosystem": "Epic Hyperspace + AI Workspace",
+  "purpose": "Evidence-based code DX correlation with LLM",
+  "queries": [
+    {
+      "condition": "Community Acquired Pneumonia",
+      "code_system": "SNOMED CT",
+      "cs": "2.16.840.1.113883.6.96",
+      "code": "233604007",
+      "dn": "Community acquired pneumonia",
+      "full_query_string": "mainSearchCriteria.c.cs=2.16.840.1.113883.6.96&mainSearchCriteria.c.c=233604007&mainSearchCriteria.c.dn=Community%20acquired%20pneumonia",
+      "use_case": "Respiratory infection evidence lookup for nursing procedures"
+    },
+    {
+      "condition": "Type 2 Diabetes Mellitus",
+      "code_system": "SNOMED CT",
+      "cs": "2.16.840.1.113883.6.96",
+      "code": "44054006",
+      "dn": "Type 2 diabetes mellitus",
+      "full_query_string": "mainSearchCriteria.c.cs=2.16.840.1.113883.6.96&mainSearchCriteria.c.c=44054006&mainSearchCriteria.c.dn=Type%202%20diabetes%20mellitus",
+      "use_case": "Chronic disease management and comorbidity correlation"
+    },
+    {
+      "condition": "Essential Hypertension",
+      "code_system": "SNOMED CT",
+      "cs": "2.16.840.1.113883.6.96",
+      "code": "38341003",
+      "dn": "Essential hypertension",
+      "full_query_string": "mainSearchCriteria.c.cs=2.16.840.1.113883.6.96&mainSearchCriteria.c.c=38341003&mainSearchCriteria.c.dn=Essential%20hypertension",
+      "use_case": "Cardiovascular risk assessment in clinical decision support"
+    },
+    {
+      "condition": "Essential (Primary) Hypertension",
+      "code_system": "ICD-10-CM",
+      "cs": "2.16.840.1.113883.6.90",
+      "code": "I10",
+      "dn": "Essential (primary) hypertension",
+      "full_query_string": "mainSearchCriteria.c.cs=2.16.840.1.113883.6.90&mainSearchCriteria.c.c=I10&mainSearchCriteria.c.dn=Essential%20(primary)%20hypertension",
+      "use_case": "Billing + clinical correlation in Epic workflows"
+    },
+    {
+      "condition": "Acute Myocardial Infarction",
+      "code_system": "SNOMED CT",
+      "cs": "2.16.840.1.113883.6.96",
+      "code": "57054005",
+      "dn": "Acute myocardial infarction",
+      "full_query_string": "mainSearchCriteria.c.cs=2.16.840.1.113883.6.96&mainSearchCriteria.c.c=57054005&mainSearchCriteria.c.dn=Acute%20myocardial%20infarction",
+      "use_case": "Emergency and cardiology evidence-based pathway support"
+    }
+  ]
+}
+```
+
+---
+
+## How to Use in Your Integration APP
+1. Copy the `full_query_string` 
+2. Append to your knowledge base / infobutton endpoint (Lippincott or similar CDS system)
+3. Feed results into your LLM for advanced code DX evidence correlation
+4. Log outcomes back into Epic Hyperspace for ground control visibility
+
+This portfolio grows your ecosystem — add more conditions as you expand the directional career path in AI-driven clinical platforms.
+
+**File saved to:** `/home/workdir/artifacts/clinical_code_dx_portfolio.md`
+
+**Next step for hyperspace build:** Want me to generate a Python integration script snippet or visual dashboard mockup image for this portfolio? Just say the word and we'll level up the ecosystem together.
