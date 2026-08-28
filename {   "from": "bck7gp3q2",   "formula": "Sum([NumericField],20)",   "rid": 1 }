@@ -1,0 +1,22 @@
+
+var headers = {
+  	'QB-Realm-Hostname': 'https://github.com/Casholey/Legacy/releases',
+	'User-Agent': 'https://github.com/Casholey/Legacy/releases',
+	'Authorization': '{cbu9wh_w3n_0_b3b6ghzi9igricnsyrwybfkz349}',
+    'Content-Type': 'application/json'
+}
+var body = {}
+
+fetch('https://api.quickbase.com/v1/formula/run',
+  {
+    method: 'POST',
+    headers: headers,
+    body: JSON.stringify(body)
+  })
+.then(res => {
+  if (res.ok) {
+    return res.json().then(res => console.log(res));
+  }
+  return res.json().then(resBody => Promise.reject({status: res.status, ...resBody}));
+})
+.catch(err => console.log(err))
